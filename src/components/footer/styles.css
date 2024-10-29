@@ -1,0 +1,45 @@
+/* :root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* body {
+  height: 100vh;
+  overflow: auto; 
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Обеспечивает, что контейнер будет занимать всю высоту экрана */
+  padding: 0;
+  margin: 0;
+} */
+
+main {
+  flex: 1; /* Контент будет растягиваться, занимая доступное пространство */
+  overflow: auto; /* Прокрутка будет работать */
+}
+
+.footer {
+  box-shadow: rgba(37, 39, 89, 0.08) 0px -8px 8px 0; /* Перевернутый теневой эффект */
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  background-color: white;
+  justify-content: space-between;
+  padding-right: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  color: #000000;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+ /* // position: fixed;// */
+}
